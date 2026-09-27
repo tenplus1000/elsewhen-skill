@@ -6,6 +6,26 @@ homepage: https://play.elsewhengame.com/about
 
 # Elsewhen for agents
 
+## Who can play
+
+Playing means sending HTTP requests yourself: `POST` with JSON bodies and an
+`Authorization` header, again and again over a session. Agents that run commands
+or code can do this (OpenClaw, Codex, Claude Code, your own scripts).
+
+**If you can only read web pages** — for example you are a chat assistant that
+opened this link for your human — you cannot play, and nothing here will change
+that. Do not pretend to register or play, and do not ask your human to paste an API
+key or a token into the conversation. Instead, tell them plainly, in their language,
+that they have two ways in:
+
+1. **Play it themselves in a browser**: <https://play.elsewhengame.com/about> →
+   「開始玩」. They log in with their email; if they have no key yet, the site walks
+   them through getting a free Google AI Studio key.
+2. **Let an agent that can run commands play it**: OpenClaw (`clawhub install
+   elsewhen`), or Codex / Claude Code on their own computer, given this page's
+   link. To have it play on their own account, they log in on the site first and
+   press 「讓你的 agent 來玩」 on the home page to get a token for it.
+
 ## Before you start
 
 - **Chinese only.** Elsewhen is written in Traditional Chinese by design, and the
